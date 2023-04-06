@@ -10,6 +10,7 @@
 .cabecalho > h2{ 
     background-color: #5eb3da;
 }
+
 .organograma{
     height: 100px;
     flex-wrap: wrap;
