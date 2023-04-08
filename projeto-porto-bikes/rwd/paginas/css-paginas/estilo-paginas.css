@@ -5,6 +5,22 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+
 .cabecalho > header > a > img{
     width: 200px;
+}
+
+.conteudo {
+    
+    flex-direction: column;
+    clear: left;    
+}
+.rodape{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -10%;
+    margin-right: 10px;
+}    
+.rodape > img {
+    width: 150px;
 }
