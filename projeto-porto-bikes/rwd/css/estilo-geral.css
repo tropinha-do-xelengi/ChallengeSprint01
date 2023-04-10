@@ -4,19 +4,65 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: rgb(186, 232, 243);
+}
+div{
+    background-color: rgb(186, 232, 243);
+}
 .cabecalho > h1{ 
     background-color: #79cef5;
-    width: fit-content;
-
+    text-align: center;
 } 
-.cabecalho > h2{ 
-    background-color: #5eb3da;
-    width: fit-content;
+
+.conteudo{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    list-style:square;
+    flex-direction: column;
+}
+.conteudo > h2{
+    color: white; 
+    background-color: #4388a8;
+    text-align: center;
+}
+.conteudo > p {
+    padding-top: 3%;
+}
+.conteudo > nav {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 39%;
+}
+.conteudo > ul{
+    background-color: #4388a8;
+    color: white;
+    padding: 1% 0%;
+}
+.rodape{
+    color: #4388a8;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-top: 2%;
+    text-align:center;
 }
 
+#titulo_membros{
+    padding: 5% 0%;
+    text-align: center;
+    justify-items: center;
+}
 .organograma{
-    height: 100px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    width: fit-content;
+    padding: 10%;
+    background-color: #79cef5;
+    border-width: 10px;
+    border-color: black;
 }
