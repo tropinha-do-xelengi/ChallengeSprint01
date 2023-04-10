@@ -1,0 +1,44 @@
+'''
+Criar uma solução digital para o cliente do produto bike realizar a vistoria online, no momento da contratação, sem a necessidade de intervenção humana no processo. 
+''' 
+while True:
+
+    print("Bem vindo(a) á vistoria online da sua bicicleta!")
+    print("Por favor, informe os seguintes dados:")
+
+    # Entrada de dados
+    nome = input("Nome completo: ")
+    cpf = input("CPF: ")
+    email = input("E-mail: ")
+    telefone = input("Telefone: ")
+    marca = input("Marca da bicicleta: ").title()
+    modelo = input("Modelo da bicicleta: ").title()
+    ano = input("Ano de fabricação da bicicleta: ")
+
+    # Processamento de dados, aqui coloquei um exemplo caso a bike do cliente fosse uma caloi, como não temos a API para reconhecer a bike ainda. Deixei essa como um exemplo.
+    if marca == "Caloi" and modelo ==  "Dez" and int(ano) >= 2020:
+        resultado = "Aprovada"
+    else:
+        resultado = "Reprovada"
+
+    # Saída de dados
+    print("Resultado da vistoria:")
+    print(f"Nome: {nome}")
+    print(f"CPF: {cpf}")
+    print(f"E-mail: {email}")
+    print(f"Telefone: {telefone}")
+    print(f"Marca: {marca}")
+    print(f"Modelo: {modelo}")
+    print(f"Ano: {ano}")
+    print(f"Resultado: {resultado}")
+
+# Menu de opções
+
+    opcao = input("Deseja realizar uma nova vistoria? (S/N): ")
+    if opcao.upper() == "S":
+        continue  
+    elif opcao.upper() == "N":
+        print("Obrigado por utilizar nosso serviço!")
+        break
+    else:
+        print("Opção inválida! Por favor, digite S ou N.")
