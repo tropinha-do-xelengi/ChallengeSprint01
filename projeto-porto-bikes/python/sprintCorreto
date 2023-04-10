@@ -33,12 +33,13 @@ while True:
     print(f"Resultado: {resultado}")
 
 # Menu de opções
-
     opcao = input("Deseja realizar uma nova vistoria? (S/N): ")
+    while opcao.upper() not in ["S", "N"]:
+        print("Opção inválida! Por favor, digite S ou N.")
+        opcao = input("Deseja realizar uma nova vistoria? (S/N): ")
+
     if opcao.upper() == "S":
         continue  
     elif opcao.upper() == "N":
         print("Obrigado por utilizar nosso serviço!")
         break
-    else:
-        print("Opção inválida! Por favor, digite S ou N.")
