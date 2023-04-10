@@ -16,7 +16,7 @@ while True:
     ano = input("Ano de fabricação da bicicleta: ")
 
     # Processamento de dados, aqui coloquei um exemplo caso a bike do cliente fosse uma caloi, como não temos a API para reconhecer a bike ainda. Deixei essa como um exemplo.
-    if marca == "Caloi" and (modelo == int(10) or "Dez") and int(ano) >= 2020:
+    if marca == "Caloi" and modelo ==  "Dez" and int(ano) >= 2020:
         resultado = "Aprovada"
     else:
         resultado = "Reprovada"
