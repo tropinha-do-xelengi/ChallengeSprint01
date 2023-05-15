@@ -3,9 +3,19 @@
 @import url("./bp-landscape-tablets.css");
 @import url("./bp-laptops.css");
 @import url("./bp-large-laptops.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
+html{
+    font-family: "Open Sans";
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+img{
+    width: 30%;
+}
+li > img{
+    width: 5%;
 }
