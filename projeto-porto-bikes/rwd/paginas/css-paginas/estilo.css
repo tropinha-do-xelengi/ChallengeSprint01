@@ -1,0 +1,11 @@
+@import url("./bp-phones.css");
+@import url("./bp-tablets.css");
+@import url("./bp-landscape-tablets.css");
+@import url("./bp-laptops.css");
+@import url("./bp-large-laptops.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
