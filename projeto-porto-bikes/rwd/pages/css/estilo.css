@@ -1,8 +1,3 @@
-@import url("./bp-phones.css");
-@import url("./bp-tablets.css");
-@import url("./bp-landscape-tablets.css");
-@import url("./bp-laptops.css");
-@import url("./bp-large-laptops.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 html{
@@ -20,7 +15,7 @@ html{
     display: flex;
     justify-content: space-between;
     height: 10%;
-    max-width: 89%;
+    max-width: 87%;
 }
 .cabecalho > img{
     width: 10%;
@@ -29,19 +24,32 @@ html{
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-top: 6%;
+    margin-top: 7%;
 }
 #ul-navbar-cabecalho > li{   
     padding: 0 5%;
+}
+.link-cabecalho{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:rgb(40, 40, 40);
+    font-weight: bolder;
 }
 
 /* ------------------- 👇 Estilos do conteúdo 👇 ------------------- */
 /* ----- Textos explicativos ----- */
 .cont1{
     background-color: #c3e2ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7.73vh;
 }
 .cont2{
     background-color: #6ebee4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #redirBtn{
     text-decoration: none;
@@ -51,6 +59,7 @@ html{
     font-weight: 800;
     border-radius: 5px;
     padding: 5px;
+    margin-top: ;
 }
 .txt-explicativo{
     display: flex;
@@ -59,12 +68,13 @@ html{
     justify-content: center;
 }
 #img-ciclista{
-    width: 50vw;
+    width: 20vw;
 }
 
 /* ----- Estilos do conteúdo das coberturas ----- */
 .features{
     display: flex;
+    flex-direction: column;
     list-style: none;
 }
 .lista-conteudo{
