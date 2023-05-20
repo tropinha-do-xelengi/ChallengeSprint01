@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistoria</title>
+    <link rel="stylesheet" href="./css/estilo-vistoria.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="../img/porto-seguro-logo.png" alt="Logo Porto-Seguro">
+        <a id="retorna-pg" href="./home.html">Clique para voltar para a home</a>
+    </header>
+    <section class="conteudo">
+        <h2>Bem-vindo(a) à sua vistoria!</h2>
+        <p>Apartir daqui, você será guiado(a) pela nossa interface personalizada durante as fotografias da sua bike, mas antes, por favor preencha os dados a seguir:</p>
+        <form action="#" class="form">
+            <fieldset class="form-holder">
+                <h3>Sua bike</h3>
+                <div class="input-holder">
+                    <input class="input-form" type="number" min="1" step=".1" name="txtValor" id="idValor" placeholder="Qual o valor da sua Bike?">
+                </div>
+                <div class="input-holder">
+                    <input class="input-form" type="text" name="txtModelo" id="idModelo" placeholder="Qual o modelo da sua Bike?">
+                </div>
+                <div class="input-holder">
+                    <input class="input-form" type="text" name="txtSNumber" id="idSNumber" placeholder="Qual o número de série?">
+                </div>
+                <div class="input-holder">
+                    <label for="txtDataCompra" id="lblData">Qual a data da compra da sua bike?</label>
+                    <input class="input-form" type="date" name="txtDataCompra" id="idDataCompra" placeholder="Qual a data da compra?">
+                </div>
+                <div class="input-holder">
+                    <button type="submit" class="submitBtn">Iniciar Vistoria</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="rodape">
+        <div class="contato">
+            <h1 class="left-txticons" id="tit-rodape">Contato</h1>
+            <ul class="left-txticons" id="lista-rodape">
+                <li class="icone-rodape">
+                    <a target="_blank" href="https://www.facebook.com">
+                        <img class="img-icon" src="../img/facebook.png" alt="logo facebook">
+                    </a>
+                </li>
+                <li class="icone-rodape">
+                    <a target="_blank" href="https://www.instagram.com">
+                        <img class="img-icon" src="../img/instagram.png" alt="logo instagram">
+                    </a>
+                </li>
+                <li class="icone-rodape">
+                    <a target="_blank" href="https://www.twitter.com">
+                        <img class="img-icon" src="../img/twitter.png" alt="logo twitter">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo-rodape">
+            <img src="../img/porto-seguro-logo2.png" alt="logo da porto">
+        </div>
+    </footer>
+</body>
+</html>
